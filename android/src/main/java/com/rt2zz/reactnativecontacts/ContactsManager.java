@@ -22,8 +22,8 @@ import android.provider.ContactsContract.CommonDataKinds.Organization;
 import android.provider.ContactsContract.CommonDataKinds.StructuredName;
 import android.provider.ContactsContract.CommonDataKinds.Note;
 import android.provider.ContactsContract.RawContacts;
-import androidx.annotation.NonNull;
-import androidx.core.app.ActivityCompat;
+import androidx.annotation.NonNull; //<- Add this
+import androidx.core.app.ActivityCompat; // <- Add this
 
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.Promise;

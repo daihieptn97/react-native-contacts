@@ -4,7 +4,7 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract;
-import androidx.annotation.NonNull;
+import androidx.annotation.NonNull; // <- Add this
 import android.text.TextUtils;
 import android.util.Log;
 
